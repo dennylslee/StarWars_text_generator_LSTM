@@ -65,7 +65,7 @@ model.fit(X, y, epochs=100, verbose=2)
 
 The learned LSTM model is stored in model.h5 file. 
 
-## Results from varying training size
+## Text generation based on learned LSTM model
 
 The text generation results are created by the running the saved model.h5.  A lead-off (seed text) phrase is input into the function such that it can start off from a short sequence of text for further prediction. Each newly generated character becomes the new seed for the next round of prediction.
 
