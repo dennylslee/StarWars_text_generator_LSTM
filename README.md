@@ -7,7 +7,7 @@ Three main programs are contained in this project:
 2. char-based-text-gen-LSTM.py for constructing the LSTM model.
 3. char-based-run-model.py for using the built model to generate text based on a lead-off phrase.
 
-The LSTM is built on Keras framework. For some of best LSTM tutorial I have encontered, goes to [Colah's Blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [Shi Yan blog on understanding LSTM](https://medium.com/mlreview/understanding-lstm-and-its-diagrams-37e2f46f1714)
+The LSTM is built on Keras framework. For some of the best LSTM tutorials I have encontered, goes to [Colah's Blog](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) and [Shi Yan blog on understanding LSTM](https://medium.com/mlreview/understanding-lstm-and-its-diagrams-37e2f46f1714)
 
 ## Data Preparation
 
