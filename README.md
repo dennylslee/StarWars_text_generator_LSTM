@@ -96,10 +96,9 @@ Third generated block of text (characters)
 
 # Observations:
 
-1. The LSTM seems to go into loops once it find a sequence that it is "familiar" with such as the repetitiveness in the first block.
-2. Certain characters must have a high significance of what should follow which led the LSTM to produce some humanly readile text.
-3. Since this is a character level learning, it is not expected that generated text should follow proper grammer or have sematic meanings (not to the mention the raw text for learning was a relatively small training set.)
-
+1. The LSTM seems to go into loops once it find a sequence that it is "familiar" with; such as the repetitiveness observed in all the text. Effectively the LSTM is regurgitating what it has memorized. 
+2. Certain characters must have a high significance of what should follow. This leads the LSTM to produce some humanly readible text in the beginning.
+3. Since this is a character level learning, it is not expected that the generated text will follow proper grammer or have sematic meanings (not to the mention the raw text for learning was a relatively small training set.)
 
 # Acknowledgment
 
